@@ -40,7 +40,7 @@ export default {
         {
           codigo: 2,
           nombre: 'Diego Alejandro Sánchez',
-          descripcion: 'Edad: 31, Instructor, Popayán(Cauca)',
+          descripcion: 'Edad: 31, Instructor SENA, Popayán(Cauca)',
           rol: 'Desarrollador Backend',
           image: require('@/img/diegosanchez.jpg'),
         },

@@ -1,7 +1,7 @@
 <template>  
       <div class="card text-white bg-dark">
         <div class="d-flex justify-content-center p-2">
-          <img v-bind:src="member.image" alt="Fofografia de los miembros" width="150" />
+          <img v-bind:src="member.image" alt="Fofografia de los miembros" width="150" height="200" />
         </div>
         <div class="card-body">
           <h4 class="card-title">Miembro #{{ member.codigo }}</h4>
