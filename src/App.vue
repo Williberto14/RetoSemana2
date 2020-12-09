@@ -1,5 +1,10 @@
 <template>
   <div id="app">
+    <div class="container-fluid">
+
+          <api-peliculas></api-peliculas>
+    </div>
+
 
     <section-services></section-services>
 
@@ -19,13 +24,18 @@
 <script>
 import SectionServices from "./components/SectionServices.vue";
 import TeamCard from "./components/TeamCard.vue";
+import ApiPeliculas from "./components/ApiPeliculas.vue";
+
+
 
 export default {
   name: "App",
   components: {
     SectionServices,
     TeamCard,
+    ApiPeliculas,
   },
+
   data() {
     return {
       title: "Vivo dentro de vue",
@@ -40,7 +50,7 @@ export default {
         {
           codigo: 2,
           nombre: 'Diego Alejandro Sánchez',
-          descripcion: 'Edad: 31, Instructor, Popayán(Cauca)',
+          descripcion: 'Edad: 31, Instructor SENA, Popayán(Cauca)',
           rol: 'Desarrollador Backend',
           image: require('@/img/diegosanchez.jpg'),
         },
