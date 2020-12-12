@@ -1,5 +1,5 @@
 <template>
-  <div class="container py-2" id="services">
+  <section class="container py-2" id="services">
     <div class="row bg-light">
       <div class="col-sm-12 col-md-4 bordes">
         <div class="py-3 px-3 text-center">
@@ -48,7 +48,7 @@
         </div>
       </div>
     </div>
-  </div>
+  </section>
 </template>
 
 <script>

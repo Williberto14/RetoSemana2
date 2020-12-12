@@ -1,14 +1,13 @@
 <template>
   <div id="app">
-    <div class="container-fluid">
-
-          <api-peliculas></api-peliculas>
-    </div>
-
 
     <section-services></section-services>
+    
+    <div class="container-fluid">
+      <api-peliculas></api-peliculas>
+    </div>
 
-    <div class="container-fluid" id="miembros">
+    <section class="container-fluid" id="miembros">
       <div class="row justify-content-center mb-5">
         <div class="col mt-5" v-for="(item, index) of team" :key="index">
 
@@ -16,7 +15,7 @@
         
         </div>   
       </div>
-    </div>
+    </section>
 
   </div>
 </template>
@@ -74,3 +73,6 @@ export default {
 };
 </script>
 
+<style scoped>
+
+</style>
